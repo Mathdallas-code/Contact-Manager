@@ -3,5 +3,9 @@
 /.pytest_cache
 .pyc
 
+# Virtual Environment
 /.vscode
 /.venv
+
+# OS
+.DS_Store
