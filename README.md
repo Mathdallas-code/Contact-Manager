@@ -1,8 +1,9 @@
-This is a contact manager made in Python. 
+This is a contact manager made in Python.
 
 ## How to run
+
 To run this program, download this repository and navigate to it in a terminal
-Then, run the following command - 
+Then, run the following command -
 
 `python main.py`
 
