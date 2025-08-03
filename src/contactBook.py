@@ -3,8 +3,8 @@ from .contact import Contact as cnt
 import json
 
 # Paths to the data files
-contactsPath = 'data/contacts.json'
-idPath = 'data/id.txt'
+contactsPath = "data/contacts.json"
+idPath = "data/id.txt"
 
 with open(contactsPath, "r") as f:
     contactsJson = json.load(f)
@@ -51,7 +51,7 @@ class ContactBook:
         return entries
 
     # Searches for a contact
-    def viewContact(self, contactName: int):
+    def viewContact(self, contactName: str):
         f = open(contactsPath, "r")
         entries = json.load(f)
         for entry in entries:
